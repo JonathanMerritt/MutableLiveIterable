@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~     Copyright 2018 Jonathan Merritt
+  ~
+  ~     Licensed under the Apache License, Version 2.0 (the "License");
+  ~     you may not use this file except in compliance with the License.
+  ~     You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~     Unless required by applicable law or agreed to in writing, software
+  ~     distributed under the License is distributed on an "AS IS" BASIS,
+  ~     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~     See the License for the specific language governing permissions and
+  ~     limitations under the License.
+  -->
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/dest_overview"
+    >
+
+  <fragment
+      android:id="@id/dest_overview"
+      android:name="com.github.jonathanmerritt.mutableliveiterable.OverviewFragment"
+      android:label="@string/title_overview"
+      tools:layout="@layout/overview"/>
+
+  <fragment
+      android:id="@id/dest_frame"
+      android:name="com.github.jonathanmerritt.mutableliveiterable.FrameFragment"
+      android:label="@string/title_frame"
+      tools:layout="@layout/frame"/>
+
+  <fragment
+      android:id="@id/dest_linear"
+      android:name="com.github.jonathanmerritt.mutableliveiterable.LinearFragment"
+      android:label="@string/title_linear"
+      tools:layout="@layout/linear"/>
+
+  <fragment
+      android:id="@id/dest_recycler"
+      android:name="com.github.jonathanmerritt.mutableliveiterable.RecyclerFragment"
+      android:label="@string/title_recycler"
+      tools:layout="@layout/recycler"/>
+
+  <fragment
+      android:id="@id/dest_relative"
+      android:name="com.github.jonathanmerritt.mutableliveiterable.RelativeFragment"
+      android:label="@string/title_relative"
+      tools:layout="@layout/relative"/>
+</navigation>

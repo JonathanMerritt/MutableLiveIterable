@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <string name="title_main">MutableLiveIterable</string>
+
+  <string name="title_overview">Overview</string>
+
+  <string name="title_frame">Frame</string>
+  <string name="title_linear">Linear</string>
+  <string name="title_recycler">Recycler</string>
+  <string name="title_relative">Relative</string>
+
+  <string name="title_letter">%d. %s</string>
+
+
+  <string name="label_add">Add</string>
+  <string name="label_remove">Remove</string>
+
+  <string name="label_clear">Clear</string>
+  <string name="label_reload">Reload</string>
+
+
+  <string name="content_overview"><sup><b>Explanation:</b></sup>
+    \n<small>Will be here.</small>
+      \n\n
+      \n<sup><b>Dependencies:</b></sup>
+      \n<small><li>developer.android.com/jetpack/androidx/releases/appcompat</li>
+      \n<li>developer.android.com/jetpack/androidx/releases/constraintlayout</li>
+      \n<li>developer.android.com/jetpack/androidx/releases/core</li>
+      \n<li>developer.android.com/jetpack/androidx/releases/fragment</li>
+      \n<li>developer.android.com/jetpack/androidx/releases/lifecycle</li>
+      \n<li>developer.android.com/jetpack/androidx/releases/navigation</li>
+      \n<li>developer.android.com/jetpack/androidx/releases/recyclerview</li>
+      \n<li>github.com/material-components/material-components-android</li>
+      \n<li>github.com/jetbrains/kotlin</li></small></string>
+</resources>
